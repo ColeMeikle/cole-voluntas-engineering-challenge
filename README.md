@@ -18,4 +18,3 @@ If you're curious to see the YAML schema, take a look at [challenge_orderbook.ya
 We also use a custom timestamp field, so that the Rust struct can use
 `chrono::DateTime` in the generated struct, and in SBE schema, it is a uint64
 representing the timestamp as the number of microseconds since unix epoch.
-
